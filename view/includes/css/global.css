@@ -1,0 +1,332 @@
+body {
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	background-image:url(../images/infini.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+* {margin: 0px;padding: 0px;}
+
+p {
+	padding: 10px 10px 10px 20px;
+	display:block;
+	color:#525757;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+a {
+	color:#6b7272;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+#container {
+	margin: 0px auto;
+	text-align: left;
+	width: 860px;
+	/*border: 1px solid black;
+	background-color: #d6ffe5;*/
+}
+#header{
+	height:304px;
+	width:860px;
+	background-image:url(../images/header.jpg);
+	text-align:center;
+	/*background-color: red;
+	background-repeat: no-repeat;*/
+}
+#content{
+	margin-top : 10px;
+	margin-bottom: 50px;
+}
+#left{
+	/*border-radius: 10px;*/
+	margin-left : 0px;
+	width:192px;
+	float:left;
+}
+#middle{
+	margin-left:206px;
+	margin-right:196px;
+	width:450px;
+}
+#right{
+	margin-right:0px;
+	width:192px;
+	float:right;
+}
+ #raccourcis{
+ 	list-style-type: none;
+ }
+/********************* menu ****************************/
+.menuheader{
+	width:auto;
+	height:37px;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid black;
+	background-color:#3b3939;
+	/*background-image:url(../images/menutop.gif);*/
+	display:block;
+}
+#right .menucontent a{
+	font-size: 10px;
+	margin-left:55px;
+}
+
+.menucontent p{
+	margin-right:15px;
+	text-align: center;
+}
+.menucontent{
+	width:auto;
+	background-color:#e1e1e1;
+
+	/*background-image:url(../images/menumiddle.gif);*/
+	padding-top:10px;
+	background-repeat: repeat-y;
+	}
+
+.menuheader h3{
+	padding: 10px 0px 0px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+.menufooter{
+	width:auto;
+	height:15px;
+	/*background-image:url(../images/menubottom.gif);*/
+	display:block;
+	background-color:#e1e1e1;
+	border-radius: 0px 0px 10px 10px;
+}
+.menuheader{
+	color:#CCCCCC;
+	text-transform: uppercase;
+}
+
+/********************* post & news ****************************/
+.post,.news{
+	width: 95%;
+	margin: auto;
+	margin-bottom:10px;
+}
+.postheader,.newsheader{
+	display:block;
+	width:auto;
+	height:auto;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid black;
+	background-color:#3b3939;
+	color:#CCCCCC;
+	text-transform: uppercase;
+}
+.postheader h1{
+	padding: 7px 0px 5px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;	
+}
+
+.postcontent{
+	background-repeat: repeat-y;
+	padding: 10px 0px 3px;
+	background-color:#e1e1e1;
+}
+.postcontent p{
+	padding: 5px 5px 5px 10px !important;
+}
+.postcontent .formulaire{
+	display:block;
+    width:200px; /* Attention : prenez une largeur suffisamment grande */
+    float:right;
+	margin-right:60px;
+}
+.postcontent .formulaire_adress_not_found{
+	display:block;
+    width:200px; /* Attention : prenez une largeur suffisamment grande */
+    float:right;
+	margin-right:60px;
+	border-color: #f00;;
+}
+.postcontent .page_link{
+	padding: 0px 15px 12px 15px;
+}
+
+.postfooter,.newsfooter{
+	display:block;
+	width:auto;
+	height:10px;
+	background-color:#e1e1e1;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/********************** news *****************************/
+.news{
+	margin-bottom:20px;
+}
+.newsheader h1{
+	padding: 10px 10px 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;	
+}
+.newsheader .date_news{
+	text-align:right;
+	font-weight:bold;
+	float:right;
+}
+.newscontent{
+	background-repeat: repeat-y;
+	padding: 5px 0px;
+	background-color:#e1e1e1;
+}
+
+/********************* header ****************************/
+#header{
+	position:relative;
+	margin:auto;
+}
+#header ul{
+	position:absolute;
+	top:250px;
+	display:block;
+	left:160px;
+}
+#header ul li{
+	display:inline;
+	text-align:center;
+	margin:auto;
+	width:auto;
+	border-right: 1px solid #6b7272;	
+}
+#header ul li.last{
+	border-right: 0px none #6b7272 !important;
+}
+#header ul li a{
+	display:inline;
+	text-align:center;
+	text-decoration:none;
+	padding: 0px 10px;
+	text-transform: uppercase;
+	color:black;
+	font-size:18px;
+}
+#header ul li a:hover{
+	text-decoration:none;
+	color: blue;
+}
+/********************* footer ****************************/
+#footer{
+	width:850px;
+}
+#footer ul{
+	display:block;
+	margin-left:350px;
+}
+#footer ul li{
+	display:inline;
+	text-align:center;
+	margin:auto;
+	width:auto;
+	border-right: 1px solid #6b7272;	
+}
+
+#footer ul li a{
+	display:inline;
+	text-align:center;
+	text-decoration:none;
+	padding: 0px 10px;
+	text-transform: uppercase;
+}
+#footer ul li a:hover{
+	text-decoration:underline;
+}
+#footer span{
+	color:#525757;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align:center;
+	width:850px;
+	display:block;
+	padding: 15px 0px;
+}
+/********************* menu members ****************************/
+ .menu {
+	border-radius: 10px;
+	margin-bottom:10px;
+
+	}
+
+.menu ul{
+	list-style-position: inside;
+	list-style-type: disc;
+	padding: 0px 0px 0px 20px;
+	color:#666666;
+}
+.menu ul li{
+	padding-top: 5px;
+	color:#666666;
+}
+.menu ul li a{
+	text-decoration:none;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	text-decoration:underline;
+	text-transform: uppercase;
+}
+.member{
+	display:inline;
+	float:left;
+	margin-left:10px;
+}
+.member span{
+	display:block;
+	text-align:center;
+	padding: 2px 0px 13px 0px;
+	text-transform: uppercase;
+
+}
+.member img{
+	width:75px;
+	height:70px;
+	border: solid 2px #999999;	
+
+}
+.clear{
+	clear:both;
+}
+
+/**************************************Class*************************************/
+
+.variable{
+	font-family: Arial, Helvetica, sans-serif;
+	color:black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.page_link{
+	color:#6b7272;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.page_link .prev{
+	float: left;
+}
+
+.page_link .next{
+	float: right;
+}
